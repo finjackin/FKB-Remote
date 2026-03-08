@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Backups gerados pelo FKB Remote
+perfil-*.json
+fkb-backup-completo-*.json
+
+# Flags de execução
+fkb_setup.flag
+fkb_test.flag
+
+# Config local (gerado na máquina do usuário, não sobe para o repo)
+fkb_config.json
+fkb_config.bak.json
+fkb_config.json.tmp
+
+# Binário compilado (distribuído via GitHub Releases, não no repo)
+fkb.exe
+
+# Editor / sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
